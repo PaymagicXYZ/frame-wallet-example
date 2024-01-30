@@ -14,6 +14,7 @@ See the [example script](/script.js) on how to integrate.
 DM [corbin.eth](https://warpcast.com/corbin.eth) for a client_id and secret. These are used to make sure nefarious Frames don't drain users' wallets. They'll be removed once mature.
 
 ### Best Practices
+* Let users know you're about to initiate a transaction on their behalf but adding a lightening emoji "⚡️ Buy" to the button text.
 * Frame Wallets have built in batched transactions, so you can pass many Ethereum transactions into one API call. For instance, the user can mint an NFT and send it to one of their verified wallets for safe keeping.
 * Frame Wallets have gas sponsorship in some cases. At launch, most transaction fees on Base will be sponsored so consider deploying there.
 * Be wary of speed clickers. Design your Frame server to only do an action once per user, even if they click many times.
