@@ -10,8 +10,8 @@ async function run() {
 
 	const getBearerToken = async() => {
 	    const params = new URLSearchParams()
-	    params.append('client_id', process.env.CLIENT_ID!)
-	    params.append('client_secret', process.env.CLIENT_SECRET!)
+	    params.append('client_id', process.env.CLIENT_ID)
+	    params.append('client_secret', process.env.CLIENT_SECRET)
 
 	    const response = await fetch('https://paymagicapi.com/v1/auth', {
 	        method: 'POST',
