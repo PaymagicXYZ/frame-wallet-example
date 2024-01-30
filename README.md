@@ -1,4 +1,4 @@
-# Frame Wallet Example
+# Frame Wallet Examples
 Farcaster Frames recently launched resulting in many crypto developers starting to build new interactive apps from within Warpcast. Many of these app developers would like to send crypto transactions but that's not currently possible with Frame buttons. In parallel, [Patch Wallet](https://www.patchwallet.com) deployed EIP-4337 account abstraction wallets on top of all Farcaster users last year as part of the [purp.game](https://purp.game/) project.
 
 Those wallets have now be retrofitted to work with Frames.
