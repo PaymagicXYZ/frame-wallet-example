@@ -30,7 +30,7 @@ async function run() {
 	    'Authorization': 'Bearer {{access_token}}'
 	  },
 	  body: JSON.stringify({
-	    "userId": "farcaster:358",
+	    "userId": `farcaster:${fid}`,
 	    "chain": "base",
 	    "to": [
 	      "0x74427681c620DE258Aa53a382d6a4C865738A06C"
@@ -42,7 +42,7 @@ async function run() {
 	      "0x"
 	    ],
 	    "delegatecall": 0,
-	    "auth": ""
+	    "auth": signedMessage
 	  })
 
 	};
